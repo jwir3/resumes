@@ -18,7 +18,7 @@ Scott Johnson\
 <jaywir3@gmail.com>\
 <https://www.jwir3.com>\
 <https://www.github.com/jwir3>\
-<https://linkeidn.com/in/jwir3>\
+<https://www.linkedin.com/in/jwir3>\
 [+1 701 741-9338](tel:+17017419338)
 
 ## Summary
