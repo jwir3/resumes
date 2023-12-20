@@ -13,3 +13,27 @@ jobs:
         with:
           name: output
           path: output/
+      - name: Copy markdown resume to remote host
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: output/ScottJohnson.md
+          remote: /var/www/jwir3.com/resumes/resume.md
+          host: ${{ secrets.UPLOAD_HOST }}
+          username: ${{ secrets.UPLOAD_USERNAME }}
+          privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
+      - name: Copy pdf resume to remote host
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: output/ScottJohnson.pdf
+          remote: /var/www/jwir3.com/resumes/resume.pdf
+          host: ${{ secrets.UPLOAD_HOST }}
+          username: ${{ secrets.UPLOAD_USERNAME }}
+          privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
+      - name: Copy html resume to remote host
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: output/ScottJohnson.html
+          remote: /var/www/jwir3.com/resumes/resume.html
+          host: ${{ secrets.UPLOAD_HOST }}
+          username: ${{ secrets.UPLOAD_USERNAME }}
+          privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
