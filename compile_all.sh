@@ -10,6 +10,6 @@ do
   echo "Compiling html.."
   ./compile.sh "$f" html
   echo "Copying md..."
-  cp $f output
+  cp "$f" output
   echo "DONE!"
 done
