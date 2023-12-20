@@ -5,9 +5,11 @@ FILES="src/*"
 for f in $FILES
 do
   echo "Processing $f file..."
-  echo "compiling pdf..."
+  echo "Compiling pdf..."
   ./compile.sh "$f" pdf
-  echo "compiling html.."
+  echo "Compiling html.."
   ./compile.sh "$f" html
+  echo "Copying md..."
+  cp $f output
   echo "DONE!"
 done

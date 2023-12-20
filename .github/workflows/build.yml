@@ -1,0 +1,15 @@
+on: push
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    name: Build and Deploy Resume
+    steps:
+      - uses: actions/checkout@v3
+      - run: sudo apt install -y pandoc lmodern wkhtmltopdf
+      - run: make test
+      - run: make
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output/
