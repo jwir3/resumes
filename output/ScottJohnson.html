@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Scott Johnson</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+color: #0C0604;
+}
+html {
+margin: 0 auto;
+max-width: 1000px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol,
+ul {
+list-style: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body {
+font: normal normal 400;
+font-size: 14pt;
+line-height: 1.3em;
+
+font-family: Latin Modern Roman, Latin Modern Math, serif;
+}
+ul {
+position: relative;
+left: 28%;
+width: 65%;
+margin-bottom: 10px;
+
+}
+li:before {
+content: "-";
+position: relative;
+left: -0.25em;
+}
+li {
+padding-left: 1.25em;
+text-indent: -1.25em;
+}
+li ul {
+position: relative;
+left: 0;
+width: 100%;
+
+}
+h1,
+h2,
+h3 {
+font-variant-caps: small-caps;
+font-weight: 500;
+}
+h1 {
+width: 80%;
+text-align: left;
+font-size: 2em;
+line-height: 1em;
+position: relative;
+left: 0%;
+
+}
+h2 {
+
+font-size: 1.1em;
+color: #26542B;
+margin-top: 12pt;
+position: relative;
+text-align: left;
+width: 20%;
+height: 0px;
+top: 0em;
+}
+h2 + h3 {
+margin-top: 1.5em;
+}
+h3 {
+font-size: 1em;
+color: #3F784A;
+position: relative;
+height: 0px;
+text-align: left;
+width: 18%;
+left: 2%;
+margin-top: 10pt;
+}
+p,h4 {
+position: relative;
+left: 23%;
+margin-bottom: 7pt;
+margin-right: 0;
+width: 77%;
+text-align: justify;
+text-justify: inter-word;
+clear: both;
+}
+h4 {
+font-weight: bold;
+margin-top: 10pt;
+text-align: left;
+}
+
+h4 code {
+
+font-weight: bold;
+color: #424242;
+letter-spacing: 0px;
+font-size: 90%;
+line-height: calc(1.3em / 0.9);
+margin-bottom: inherit;
+position: relative;
+text-align: right;
+float: right;
+clear: none;
+right: 0px;
+margin-left: 10px;
+}
+h2 + h4,
+h3 + h4{
+margin-top: 0px;
+}
+blockquote {
+border-left: 3px solid #0C0604;
+padding-left: 10px;
+position: relative;
+left: 25%;
+width: 70%;
+margin-bottom: 10px;
+font-style: italic;
+}
+blockquote p {
+left: 0%;
+width: 100%;
+}
+hr {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+header + hr {
+margin-top: 0.2em;
+}
+a {
+color: inherit;
+color: #344E41;
+text-decoration: none;
+}
+a:visited {
+color: #344E41;
+}
+a:hover {
+color: #0e1131;
+}
+em {
+font-style: italic;
+}
+strong {
+font-weight: bolder;
+}
+#ghbutton {
+display: none;
+visibility: hidden;
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Scott Johnson</h1>
+</header>
+<hr />
+<h2 id="contact-information">Contact information</h2>
+<p>Scott Johnson<br />
+<a href="mailto:jaywir3@gmail.com" class="email">jaywir3@gmail.com</a><br />
+<a href="https://www.jwir3.com" class="uri">https://www.jwir3.com</a><br />
+<a href="https://www.github.com/jwir3" class="uri">https://www.github.com/jwir3</a><br />
+<a href="https://linkeidn.com/in/jwir3" class="uri">https://linkeidn.com/in/jwir3</a><br />
+<a href="tel:+17017419338">+1 701 741-9338</a></p>
+<h2 id="summary">Summary</h2>
+<p>Principal-level software engineer with 15+ years of experience in
+computer graphics and computational geometry across a variety of
+technical stacks. Passionate about open-source software,
+high-performance rendering, clean code design, and learning while
+mentoring other developers through code review, individual pairing
+sessions, and leadership principles.</p>
+<h2 id="work-experience">Work Experience</h2>
+<h3 id="remote">Remote</h3>
+<h4 id="capture-software-engineer-at-chromatic-mar-2023---present">Capture
+Software Engineer at <a href="https://www.chromatic.com">Chromatic</a>
+<code>Mar 2023 - Present</code></h4>
+<p>Worked on the capture cloud, a distributed system for taking
+screenshots of <a href="https://storybook.js.org">Storybook</a>
+applications in browsers and comparing them for regression detection.
+Maintained the capture infrastructure using Docker, AWS ECS Fargate,
+ECR, EC2, and other associated services. Developed code for
+microservices using Typescript, Go, and ES5/6. Provided expertise in
+browser rendering, browser architecture, and image differencing
+algorithms.</p>
+<h4 id="founderceo-at-foamfactory-jan-2021---mar-2023">Founder/CEO at <a href="https://www.foamfactory.io">FoamFactory</a>
+<code>Jan 2021 - Mar 2023</code></h4>
+<p>Created a web application for brewery management using Javascript
+with React for the Frontend, as well as a monolithic REST-based API for
+data management using Ruby/Rails on the backend. Created several small
+microservices using Rust, Go, and NodeJS for various associated tasks,
+such as avatar management and deployment.</p>
+<p>Developed a robust and reusable component library for React
+components specially designed for beer brewing using Storybook and
+custom open-source deployment and packaging tools.</p>
+<h4 id="principal-engineer-at-medal-dec-2019---jan-2021">Principal
+Engineer at <a href="https://medal.tv">Medal</a>
+<code>Dec 2019 - Jan 2021</code></h4>
+<p>Added features for audio and video control to an existing Electron
+application using React in Typescript for gamers to record gameplay and
+share with others. Developed code in a “special projects” role,
+assisting the company in a number of different areas, including research
+and development, build systems, integrations, hardware graphics
+recording, and application development.</p>
+<h4 id="lead-graphics-engineer-at-invision-app-dec-2016---dec-2019">Lead
+Graphics Engineer at <a href="https://www.invisionapp.com">InVision
+App</a> <code>Dec 2016 - Dec 2019</code></h4>
+<p>Developed the rendering engine behind Studio, a tool for editing and
+creating vector graphics and application prototypes. Utilized WebGL
+within HaXe, a language similar to Typescript that compiles to
+Javascript for the core engine and utilized React and Electron for the
+application layer.</p>
+<p>Developed a fast, memory-efficient, high-quality rendering system for
+Bézier paths, shapes, surfaces, and text utilizing the full power of the
+GPU. Utilized GLSL to write vertex and fragment shaders for multiple
+effects within the WebGL programmable pipeline. Developed highly
+efficient, cutting-edge implementations of antialiasing for incredibly
+crisp and appealing visual output.</p>
+<p>Developed a prototype of a replacement rendering engine that used
+Skia compiled to WebAssembly. Prototyped a potential replacement
+rendering engine written in Rust and compiled to WebAssembly.</p>
+<h3 id="minneapolis-mn">Minneapolis, MN</h3>
+<h4 id="engineering-team-lead-at-when-i-work-sep-2014---dec-2016">Engineering
+Team Lead at <a href="https://www.wheniwork.com">When I Work</a>
+<code>Sep 2014 - Dec 2016</code></h4>
+<p>Developed a suite of Android applications for scheduling/workplace
+management. Improved ratings in the Google Play store from 2.9 to 4.0
+Architected an overarching platform and code strategy for the Android
+platform.</p>
+<p>Interviewed, mentored and trained 3 other developers to work
+underneath me. Managed the automated test and continuous integration
+environment (TravisCI, Jenkins). Peer reviewed code from others and set
+forth coding standards. Conducted standup meetings for feature-based
+team and coordinate agile methodology.</p>
+<p>Managed application lifecycle from initial feature design to release
+within the Google Play Store. Monitored crash statistics and customer
+feedback.</p>
+<h3 id="edina-mn">Edina, MN</h3>
+<h4 id="android-engineering-lead-at-jingit-nov-2013---sep-2014">Android
+Engineering Lead at Jingit <code>Nov 2013 - Sep 2014</code></h4>
+<p>Developed an Android application for a retail rewards system where
+users would select offers from a particular vendor and then capture
+images of receipts to be processed in exchange for cash rewards.</p>
+<p>Established coding standards for the Android team and established an
+agile process where our team successfully achieved 10% week-over-week
+productivity growth for a sustained period of over 24 weeks.</p>
+<p>Established an automated test and continuous integration environment
+for both Android and iOS code. Managed a system for dispatching push
+notifications to user devices through a unified gateway for all devices.
+Managed the application lifecycle from initial feature design to release
+through the Google Play Store.</p>
+<h3 id="remote-1">Remote</h3>
+<h4 id="platform-engineer-layout-at-mozilla-jun-2011---oct-2013">Platform
+Engineer, Layout at <a href="https://www.mozilla.org">Mozilla</a>
+<code>Jun 2011 - Oct 2013</code></h4>
+<p>Developed code in the Gecko platform behind Mozilla Firefox, Firefox
+for Android, Firefox OS, Thunderbird, and Seamonkey products using C++,
+Java, Python, Javascript, HTML, and CSS. Designed and implemented
+software rendering systems to conform to specifications set forth by the
+W3C</p>
+<p>Developed code related to layout on Firefox for Android within the
+Gecko platform using the Android Native Development Kit (NDK). Developed
+user interfaces within Java for Firefox for Android using Java and the
+Android Software Development Kit (SDK). Supported inter-process
+communication for Firefox and Firefox for Android between Java, Native
+(C/C++ platform) and script (Javascript) using JNI and COM.</p>
+<p>Advised on issues related to advancement of multi-party
+specifications through the W3C and WhatWG. Responded to editor drafts
+and assisted those charged with editing the working draft specifications
+on issues that arose during implementation.</p>
+<p>Wrote and maintained unit tests within the Mozilla codebase and
+responded to test failures within the Mozilla continuous integration
+system.</p>
+<h3 id="bloomington-mn">Bloomington, MN</h3>
+<h4 id="sr.-software-engineer-at-general-dynamics-ais-oct-2009---may-2011">Sr. Software
+Engineer at <a href="https://gdmissionsystems.com/">General Dynamics
+AIS</a> <code>Oct 2009 - May 2011</code></h4>
+<p>Developed and maintained features within the <em>Multi-Int Analysis
+and Archive System (MAAS)</em>, a software product suite that assists
+intelligence analysts in analyzing raw intelligence data, especially
+video captured from remote sources. Wrote object-oriented code primarily
+in Java, coordinating with Microsoft SQL Server using Hibernate.</p>
+<h2 id="education">Education</h2>
+<h3 id="university-of-minnesota">University of Minnesota</h3>
+<h4 id="master-of-science-computer-science-2006-2009">Master of Science,
+Computer Science <code>2006-2009</code></h4>
+<p>From 2006-2009, was in a PhD program in Computer Science with
+research focuses in computational geometry and photorealistic rendering
+in computer graphics.</p>
+<h3 id="university-of-north-dakota">University of North Dakota</h3>
+<h4 id="bachelor-of-science-in-computer-science-2001-2006">Bachelor of
+Science in Computer Science <code>2001-2006</code></h4>
+<p>Completed a Bachelor’s degree in Computer Science with focused study
+in software engineering and computer graphics. Graduated summa cum
+laude.</p>
+<h4 id="bachelor-of-science-2001-2006">Bachelor of Science
+<code>2001-2006</code></h4>
+<p>Completed a separate Bachelor’s degree in Mathematics with focused
+study in statistical theory, number theory, and combinatorics. Graduated
+summa cum laude.</p>
+<h2 id="awards-and-recognitions">Awards and Recognitions</h2>
+<p>Top Secret Clearance (Currently Inactive); <em>United States
+Department of Defense</em>, <code>2009-2011</code></p>
+<p>Google Summer of Code Mentor; <em>Crystal Space 3D SDK</em>,
+<code>Summer 2008</code>, <code>Summer 2009</code></p>
+<p>Google Summer of Code Grant Recipient; <em>Crystal Space 3D SDK</em>,
+<code>Summer 2007</code></p>
+<p>Inducted Lifetime Member, <em>Phi Beta Kappa</em>, Honor Society in
+Liberal Scholorship, <code>2006</code></p>
+<p>Inducted Lifetime Member, <em>Upsilon Pi Epsilon</em>, Computer
+Science Honor Society, <code>2004</code></p>
+<h2 id="skills">Skills</h2>
+<h4 id="programming-languages">Programming Languages</h4>
+<p>C/C++, Rust, Javascript (multiple variants, most notably ES6),
+TypeScript, Java, Groovy, Go, WebAssembly, HaXe, PHP, Ruby, x86
+Assembly</p>
+<h4 id="frameworks-and-libraries">Frameworks and Libraries</h4>
+<p>OpenGL, OpenGL Shading Language (GLSL), WebGL, Rails, Skia, Qt,
+Android SDK, Gecko Web Rendering Engine, Gradle, React, Storybook</p>
+<h4 id="platforms">Platforms</h4>
+<p>Unix, Linux (multiple variants), Mac OS/X, Windows</p>
+<h4 id="cloud-services-and-tools">Cloud Services and Tools</h4>
+<p>AWS, GCP, Terraform</p>
+<h4 id="developer-tools">Developer Tools</h4>
+<p>VSCode, Mercurial, Git, CircleCI, Github, Github Actions, <a href="https://www.linear.app">Linear</a>, JIRA, Slack, Discord</p>
+</body>
+</html>
