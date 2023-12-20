@@ -16,16 +16,19 @@ test:
 	shellcheck ./compile.sh
 	shellcheck ./compile_all.sh
 	make
-	test -f ./output/sample.pdf || exit 1
-	test -f ./output/sample.html || exit 1
+	test -f ./output/ScottJohnson.pdf || exit 1
+	test -f ./output/ScottJohnson.html || exit 1
+	test -f ./output/ScottJohnson.md || exit 1
 	make clean
-	test ! -f ./output/sample.pdf || exit 1
-	test ! -f ./output/sample.html || exit 1
+	test ! -f ./output/ScottJohnson.pdf || exit 1
+	test ! -f ./output/ScottJohnson.html || exit 1
+	test ! -f ./output/ScottJohnson.md || exit 1
 
 .PHONY: clean
 clean:
 	rm -f output/*.html
 	rm -f output/*.pdf
+	rm -f output/*.md
 
 .PHONY: docker
 docker:
