@@ -17,7 +17,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@release
         with:
           local: output/ScottJohnson.md
-          remote: /var/www/jwir3.com/resume/resume.md
+          remote: /var/www/www.jwir3.com/resume/resume.md
           host: ${{ secrets.UPLOAD_HOST }}
           username: ${{ secrets.UPLOAD_USERNAME }}
           privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
@@ -25,7 +25,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@release
         with:
           local: output/ScottJohnson.pdf
-          remote: /var/www/jwir3.com/resume/resume.pdf
+          remote: /var/www/www.jwir3.com/resume/resume.pdf
           host: ${{ secrets.UPLOAD_HOST }}
           username: ${{ secrets.UPLOAD_USERNAME }}
           privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
@@ -33,7 +33,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@release
         with:
           local: output/ScottJohnson.html
-          remote: /var/www/jwir3.com/resume/resume.html
+          remote: /var/www/www.jwir3.com/resume/resume.html
           host: ${{ secrets.UPLOAD_HOST }}
           username: ${{ secrets.UPLOAD_USERNAME }}
           privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
