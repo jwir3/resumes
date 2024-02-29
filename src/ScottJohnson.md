@@ -22,7 +22,7 @@ Scott Johnson\
 [+1 701 741-9338](tel:+17017419338)
 
 ## Summary
-Principal-level software engineer with 15+ years of experience in computer graphics and computational geometry across a variety of technical stacks. Passionate about open-source software, high-performance rendering, clean code design, and learning while mentoring other developers through code review, individual pairing sessions, and leadership principles.
+Highly skilled software engineer with 15+ years of experience in computer graphics and computational geometry across a variety of technical stacks. Passionate about open-source software, high-performance rendering, clean code design, and learning while mentoring other developers through code review, individual pairing sessions, and leadership principles.
 
 ## Work Experience
 ### Remote
