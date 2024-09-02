@@ -31,14 +31,20 @@ Highly skilled software engineer with 15+ years of experience in computer graphi
 
 Worked on the capture cloud, a distributed system for taking screenshots of [Storybook](https://storybook.js.org) applications in browsers and comparing them for regression detection. Maintained the capture infrastructure using Docker, AWS ECS Fargate, ECR, EC2, and other associated services. Developed code for microservices using Typescript, Go, and ES5/6. Provided expertise in browser rendering, browser architecture, and image differencing algorithms.
 
+**Skills**: AWS, Terraform, Typescript, Javascript, NodeJS, React, Playwright, Storybook, go, Make, Docker
+
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
 
 Created a web application for brewery management using Javascript with React for the Frontend, as well as a monolithic REST-based API for data management using Ruby/Rails on the backend. Created several small microservices using Rust, Go, and NodeJS for various associated tasks, such as avatar management and deployment.
 
 Developed a robust and reusable component library for React components specially designed for beer brewing using Storybook and custom open-source deployment and packaging tools.
 
+**Skills**: Javascript, React, Rust, Go, Ruby/Rails, NodeJS, Webpack, Storybook, Web Components, WebSockets
+
 #### Principal Engineer at [Medal](https://medal.tv) `Dec 2019 - Jan 2021`
 Added features for audio and video control to an existing Electron application using React in Typescript for gamers to record gameplay and share with others. Developed code in a "special projects" role, assisting the company in a number of different areas, including research and development, build systems, integrations, hardware graphics recording, and application development.
+
+**Skills**: Javascript, React, Storybook, WebComponents, Electron, NodeJS
 
 #### Lead Graphics Engineer at [InVision App](https://www.invisionapp.com) `Dec 2016 - Dec 2019`
 
@@ -47,6 +53,8 @@ Developed the rendering engine behind Studio, a tool for editing and creating ve
 Developed a fast, memory-efficient, high-quality rendering system for Bézier paths, shapes, surfaces, and text utilizing the full power of the GPU. Utilized GLSL to write vertex and fragment shaders for multiple effects within the WebGL programmable pipeline. Developed highly efficient, cutting-edge implementations of antialiasing for incredibly crisp and appealing visual output.
 
 Developed a prototype of a replacement rendering engine that used Skia compiled to WebAssembly. Prototyped a potential replacement rendering engine written in Rust and compiled to WebAssembly.
+
+**Skills**: haXe, Javascript, WebGL, Electron, React, WebAssembly, C/C++, Rust
 
 ### Minneapolis, MN
 #### Engineering Team Lead at [When I Work](https://www.wheniwork.com) `Sep 2014 - Dec 2016`
