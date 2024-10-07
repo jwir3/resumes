@@ -1,5 +1,7 @@
 # markdown-resume
 
+**TODO**: Consider making a different styled document, a la https://resume.co/@PE9X00ithLpxQuvFVgyF?password=CeKehRehHeCe
+
 A tool that uses [pandoc](https://pandoc.org/MANUAL.html#pandocs-markdown) to generate a good looking CV in .pdf and .html formats from a vanilla markdown file.
 
 You can see a real-world CV built with the tool [**HERE**](CV_Jacek_Krolikowski_en.pdf).
@@ -90,5 +92,3 @@ Also, I'm available for contract work! If you have a project you think I could h
 ### Why is there a hidden `.Makefile` in the root directory?
 
 I left it as a reminder to never try to use hand-written Makefiles for anything non-trivial - it's not worth it.
-
-

@@ -28,13 +28,11 @@ Highly skilled software engineer with 15+ years of experience in computer graphi
 ### Remote
 
 #### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
-  - Develop distributed screenshot and image differencing system for [Storybook](https://storybook.js.org) apps, ensuring reliable regression detection.
-  - Maintain and improve capture infrastructure using Docker, Heroku, and AWS.
-  - Develop and improve Service Oriented Architecture (SOA) services using Typescript, Go, and Node Javascript (ES5/6).
-  - Apply browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
-  - Collaborate on cloud architecture to achieve measurable improvements in deployment speeds.
-
-Worked on the capture cloud, a distributed system for taking screenshots of [Storybook](https://storybook.js.org) applications in browsers and comparing them for regression detection. Maintained the capture infrastructure using Docker, AWS ECS Fargate, ECR, EC2, and other associated services. Developed code for microservices using Typescript, Go, and ES5/6. Provided expertise in browser rendering, browser architecture, and image differencing algorithms.
+- Developed distributed screenshot and image differencing system for [Storybook](https://storybook.js.org) apps, ensuring reliable regression detection.
+- Maintained and improved capture infrastructure using Docker, Heroku, and AWS.
+- Developed and improved Service Oriented Architecture (SOA) services using Typescript, Go, and Node Javascript (ES5/6).
+- Applied browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
+- Collaborated on cloud architecture to achieve measurable improvements in deployment speeds.
 
 **Skills**: AWS, Terraform, Typescript, Javascript, NodeJS, React, Playwright, Storybook, go, Make, Docker
 
