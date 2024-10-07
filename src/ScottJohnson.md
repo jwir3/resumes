@@ -12,7 +12,7 @@ style: default
 
 <hr />
 
-## Contact information
+## Contact Information
 
 Scott Johnson\
 <jaywir3@gmail.com>\
@@ -28,6 +28,11 @@ Highly skilled software engineer with 15+ years of experience in computer graphi
 ### Remote
 
 #### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
+  - Develop distributed screenshot and image differencing system for [Storybook](https://storybook.js.org) apps, ensuring reliable regression detection.
+  - Maintain and improve capture infrastructure using Docker, Heroku, and AWS.
+  - Develop and improve Service Oriented Architecture (SOA) services using Typescript, Go, and Node Javascript (ES5/6).
+  - Apply browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
+  - Collaborate on cloud architecture to achieve measurable improvements in deployment speeds.
 
 Worked on the capture cloud, a distributed system for taking screenshots of [Storybook](https://storybook.js.org) applications in browsers and comparing them for regression detection. Maintained the capture infrastructure using Docker, AWS ECS Fargate, ECR, EC2, and other associated services. Developed code for microservices using Typescript, Go, and ES5/6. Provided expertise in browser rendering, browser architecture, and image differencing algorithms.
 
@@ -35,60 +40,82 @@ Worked on the capture cloud, a distributed system for taking screenshots of [Sto
 
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
 
-Created a web application for brewery management using Javascript with React for the Frontend, as well as a monolithic REST-based API for data management using Ruby/Rails on the backend. Created several small microservices using Rust, Go, and NodeJS for various associated tasks, such as avatar management and deployment.
-
-Developed a robust and reusable component library for React components specially designed for beer brewing using Storybook and custom open-source deployment and packaging tools.
+- Led development of brewery management app, enhancing efficiency for brewers worldwide, using React and Ruby/Rails.
+- Implemented microservices in Rust, Go, and NodeJS to ensure good software engineering principles of responsibility separation and data encapsulation.
+- Created resuable React component library using Storybook, improving developer efficiency and software reusability.
+- Pioneered strategic growth initiatives, enhancing operational efficiency and market reach through innovative tech solutions.
+- Led efforts for the acquisition of venture capital funding to drive growth and plan for future expansion.
 
 **Skills**: Javascript, React, Rust, Go, Ruby/Rails, NodeJS, Webpack, Storybook, Web Components, WebSockets
 
 #### Principal Engineer at [Medal](https://medal.tv) `Dec 2019 - Jan 2021`
-Added features for audio and video control to an existing Electron application using React in Typescript for gamers to record gameplay and share with others. Developed code in a "special projects" role, assisting the company in a number of different areas, including research and development, build systems, integrations, hardware graphics recording, and application development.
+
+- Enhanced Electron app with audio/video controls for gamers using React and Typescript.
+- Contributed to R&D, build systems, and integrations, improving application performance.
+- Implemented hardware graphics recording, boosting user experience and functionality.
+- Led cross-functional teams to enhance software architecture, boosting system efficiency and performance for seamless user experiences.
 
 **Skills**: Javascript, React, Storybook, WebComponents, Electron, NodeJS
 
 #### Lead Graphics Engineer at [InVision App](https://www.invisionapp.com) `Dec 2016 - Dec 2019`
 
-Developed the rendering engine behind Studio, a tool for editing and creating vector graphics and application prototypes. Utilized WebGL within HaXe, a language similar to Typescript that compiles to Javascript for the core engine and utilized React and Electron for the application layer.
-
-Developed a fast, memory-efficient, high-quality rendering system for Bézier paths, shapes, surfaces, and text utilizing the full power of the GPU. Utilized GLSL to write vertex and fragment shaders for multiple effects within the WebGL programmable pipeline. Developed highly efficient, cutting-edge implementations of antialiasing for incredibly crisp and appealing visual output.
-
-Developed a prototype of a replacement rendering engine that used Skia compiled to WebAssembly. Prototyped a potential replacement rendering engine written in Rust and compiled to WebAssembly.
+- Led development of Studio's rendering engine, enhancing vector graphics editing capabilities.
+- Utilized WebGL and haXe (a language similar to Typescript) for efficient GPU-based rendering of complex vector graphics.
+- Created a high-performance, GPU-based Bézier path rendering system, improving visual quality and rendering speed of the application.
+- Utilized GLSL for shader programming, achieving stunning visual effects in WebGL.
+- Prototyped WebAssembly-based rendering engines, exploring Rust and Skia for future improvements.
 
 **Skills**: haXe, Javascript, WebGL, Electron, React, WebAssembly, C/C++, Rust
 
 ### Minneapolis, MN
 #### Engineering Team Lead at [When I Work](https://www.wheniwork.com) `Sep 2014 - Dec 2016`
 
-Developed a suite of Android applications for scheduling/workplace management. Improved ratings in the Google Play store from 2.9 to 4.0 Architected an overarching platform and code strategy for the Android platform.
+- Led team to innovate Android app solutions, enhancing user engagement and satisfaction, reflected in improved app ratings from 2.9 to 4.0.
+- Mentored team of 3 skilled developers, enhancing their skills and productivity.
+- Managed CI environment with tools like TravisCI and CircleCI.
+- Implemented code quality standards through the use of code reviews, test coverage analysis, and static analysis processes.
+- Coordinated agile practices, improving project delivery times.
 
-Interviewed, mentored and trained 3 other developers to work underneath me. Managed the automated test and continuous integration environment (TravisCI, Jenkins). Peer reviewed code from others and set forth coding standards. Conducted standup meetings for feature-based team and coordinate agile methodology.
-
-Managed application lifecycle from initial feature design to release within the Google Play Store. Monitored crash statistics and customer feedback.
+**Skills**: Java, Android, Javascript, Project Management, Mobile Development
 
 ### Edina, MN
 #### Android Engineering Lead at Jingit `Nov 2013 - Sep 2014`
 
-Developed an Android application for a retail rewards system where users would select offers from a particular vendor and then capture images of receipts to be processed in exchange for cash rewards.
+- Led cross-functional teams in developing an Android app for retail rewards, enhancing app features, as well as driving substantial engagement and user satisfaction.
+- Boosted team productivity by 10% weekly through agile processes and coding standards.
+- Implemented automated testing and CI through the use of Jenkins, improving code reliability on Android and iOS.
+- Streamlined the push notification system, ensuring timely user updates and messaging across all devices.
+- Oversaw app lifecycle, from feature design to successful Google Play Store release.
 
-Established coding standards for the Android team and established an agile process where our team successfully achieved 10% week-over-week productivity growth for a sustained period of over 24 weeks.
-
-Established an automated test and continuous integration environment for both Android and iOS code. Managed a system for dispatching push notifications to user devices through a unified gateway for all devices. Managed the application lifecycle from initial feature design to release through the Google Play Store.
+**Skills**: Java, Android, Agile Project Management, iOS, Push Notification Systems, Javascript, NodeJS
 
 ### Remote
 #### Platform Engineer, Layout at [Mozilla](https://www.mozilla.org) `Jun 2011 - Oct 2013`
 
-Developed code in the Gecko platform behind Mozilla Firefox, Firefox for Android, Firefox OS, Thunderbird, and Seamonkey products using C++, Java, Python, Javascript, HTML, and CSS. Designed and implemented software rendering systems to conform to specifications set forth by the W3C
+- Developed Gecko platform code for Mozilla products using C/C++, Java, Python, Rust, and more.
+- Boosted web gaming stability and performance using WebGL and DirectX for cross-platform compatibility.
+- Implemented W3C-compliant rendering systems, enhancing cross-platform compatibility.
+- Created layout code for Firefox Android with the Android SDK and NDK, improving performance.
+- Facilitated inter-process communication using JNI and COM, ensuring seamless integration.
+- Implemented portions of CSS3 Multicolumn layout in Firefox, enhancing layout performance and readability.
+- Optimized animated image rendering, improving browser efficiency and user experience.
+- Enhanced text readability in Firefox, contributing to user engagement and satisfaction.
+- Contributed to W3C specs such as CSSOM and WebGL, driving standards in web technologies.
+- Maintained unit tests, ensuring stability and spec compliance within Mozilla's product offerings.
+- Enhanced cross-platform performance by optimizing code efficiency, leading to improved user experience across Mozilla products.
 
-Developed code related to layout on Firefox for Android within the Gecko platform using the Android Native Development Kit (NDK). Developed user interfaces within Java for Firefox for Android using Java and the Android Software Development Kit (SDK). Supported inter-process communication for Firefox and Firefox for Android between Java, Native (C/C++ platform) and script (Javascript) using JNI and COM.
-
-Advised on issues related to advancement of multi-party specifications through the W3C and WhatWG. Responded to editor drafts and assisted those charged with editing the working draft specifications on issues that arose during implementation.
-
-Wrote and maintained unit tests within the Mozilla codebase and responded to test failures within the Mozilla continuous integration system.
+**Skills**: C/C++, Java, Python, Rust, Javascript, HTML, CSS, W3C Specification Writing
 
 ### Bloomington, MN
 #### Sr. Software Engineer at [General Dynamics AIS](https://gdmissionsystems.com/) `Oct 2009 - May 2011`
 
-Developed and maintained features within the _Multi-Int Analysis and Archive System (MAAS)_, a software product suite that assists intelligence analysts in analyzing raw intelligence data, especially video captured from remote sources. Wrote object-oriented code primarily in Java, coordinating with Microsoft SQL Server using Hibernate.
+- Enhanced _Multi-Int Analysis and Archive System (MAAS)_ features for intelligence community data analysis, boosting analyst efficiency.
+- Developed Java code interfacing with Microsoft SQL Server, improving data processing speed.
+- Collaborated on the MAAS software suite, including video editing with ffmpeg, to improve user satisfaction.
+- Implemented web services using Hibernate and Spring, enhancing system reliability and performance.
+- Led the enhancement of MAAS software, improving data processing efficiency for intelligence analysts.
+
+**Skills**: Java, Hibernate, Spring, ffmpeg, Web Services, Microsoft SQL Server
 
 ## Education
 
