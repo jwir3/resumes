@@ -22,59 +22,54 @@ Scott Johnson\
 [+1 701 741-9338](tel:+17017419338)
 
 ## Summary
-Highly skilled software engineer with 15+ years of experience in computer graphics and computational geometry across a variety of technical stacks. Passionate about open-source software, high-performance rendering, clean code design, and learning while mentoring other developers through code review, individual pairing sessions, and leadership principles.
+Strategic engineering leader with over 15 years of experience architecting, delivering, and scaling complex software platforms and leading high-performing, cross-functional engineering teams. Proven track record of driving technical strategy, fostering a culture of innovation and delivery excellence, and collaborating effectively with product, analytics, and executive leadership. Passionate about building scalable, platform-first solutions and mentoring the next generation of engineering talent.
+
+## Core Competencies
+- **Strategic & Technical Leadership**: Technical Roadmapping, Cloud Architecture (AWS), Platform Development, Microservices & SOA
+- **Team Leadership & Development**: Hiring & Mentoring, Agile Methodologies, Performance Management, Engineering Culture
+- **Execution & Delivery**: CI/CD & DevOps, Quality & Performance Metrics, API-First Design, Stakeholder Management
+- **Core Technologies**: AWS, Go, JavaScript/TypeScript, NodeJS, React, Docker, Terraform, C/C++, Rust
 
 ## Work Experience
 ### Remote
 
 #### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
-- Developed distributed screenshot and image differencing system for [Storybook](https://storybook.js.org) apps, ensuring reliable regression detection.
+- Architected and developed distributed, fault-tolerant backend services using Go, TypeScript, and Node.js within a large-scale Service-Oriented Architecture (SOA) on AWS.
 - Maintained and improved capture infrastructure using Docker, Heroku, and AWS.
-- Developed and improved Service Oriented Architecture (SOA) services using Typescript, Go, and Node Javascript (ES5/6).
 - Applied browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
 - Collaborated on cloud architecture to achieve measurable improvements in deployment speeds.
-
-**Skills**: AWS, Terraform, Typescript, Javascript, NodeJS, React, Playwright, Storybook, go, Make, Docker
+- Partnered closely with Product and UX leaders to align the technical roadmap with customer needs, ensuring engineering initiatives directly supported business outcomes.
 
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
 
-- Led development of brewery management app, enhancing efficiency for brewers worldwide, using React and Ruby/Rails.
-- Implemented microservices in Rust, Go, and NodeJS to ensure good software engineering principles of responsibility separation and data encapsulation.
-- Created resuable React component library using Storybook, improving developer efficiency and software reusability.
+- Led the full-stack development and architectural design of a SaaS platform for brewery management using Ruby on Rails and React, successfully taking the product from concept to market.
+- Architected a scalable backend using a microservice approach with Rust, Go, and NodeJS, ensuring clear separation of concerns and high availability- - Created resuable React component library using Storybook, improving developer efficiency and software reusability.
 - Pioneered strategic growth initiatives, enhancing operational efficiency and market reach through innovative tech solutions.
 - Led efforts for the acquisition of venture capital funding to drive growth and plan for future expansion.
-
-**Skills**: Javascript, React, Rust, Go, Ruby/Rails, NodeJS, Webpack, Storybook, Web Components, WebSockets
 
 #### Principal Engineer at [Medal](https://medal.tv) `Dec 2019 - Jan 2021`
 
 - Enhanced Electron app with audio/video controls for gamers using React and Typescript.
 - Contributed to R&D, build systems, and integrations, improving application performance.
-- Implemented hardware graphics recording, boosting user experience and functionality.
+- Engineered a hardware-accelerated video capture system for gamers, interfacing directly with graphics hardware to ensure high-performance recording with minimal overhead.
 - Led cross-functional teams to enhance software architecture, boosting system efficiency and performance for seamless user experiences.
-
-**Skills**: Javascript, React, Storybook, WebComponents, Electron, NodeJS
 
 #### Lead Graphics Engineer at [InVision App](https://www.invisionapp.com) `Dec 2016 - Dec 2019`
 
-- Led development of Studio's rendering engine, enhancing vector graphics editing capabilities.
+- Led the architecture and development of a high-performance, real-time data visualization platform, demonstrating expertise in optimizing complex systems and leading cross-functional teams.
 - Utilized WebGL and haXe (a language similar to Typescript) for efficient GPU-based rendering of complex vector graphics.
-- Created a high-performance, GPU-based Bézier path rendering system, improving visual quality and rendering speed of the application.
+- Designed and implemented a high-performance, GPU-based rendering system for complex Bézier paths, directly programming shaders in GLSL to optimize visual quality and frame rate.
 - Utilized GLSL for shader programming, achieving stunning visual effects in WebGL.
 - Prototyped WebAssembly-based rendering engines, exploring Rust and Skia for future improvements.
 
-**Skills**: haXe, Javascript, WebGL, Electron, React, WebAssembly, C/C++, Rust
-
 ### Minneapolis, MN
-#### Engineering Team Lead at [When I Work](https://www.wheniwork.com) `Sep 2014 - Dec 2016`
+#### Mobile Engineering Lead at [When I Work](https://www.wheniwork.com) `Sep 2014 - Dec 2016`
 
 - Led team to innovate Android app solutions, enhancing user engagement and satisfaction, reflected in improved app ratings from 2.9 to 4.0.
-- Mentored team of 3 skilled developers, enhancing their skills and productivity.
+- Led a team of 3 developers in an Agile environment, improving project delivery times and application quality through rigorous code reviews, CI/CD, and mentorship.
 - Managed CI environment with tools like TravisCI and CircleCI.
 - Implemented code quality standards through the use of code reviews, test coverage analysis, and static analysis processes.
 - Coordinated agile practices, improving project delivery times.
-
-**Skills**: Java, Android, Javascript, Project Management, Mobile Development
 
 ### Edina, MN
 #### Android Engineering Lead at Jingit `Nov 2013 - Sep 2014`
@@ -85,24 +80,20 @@ Highly skilled software engineer with 15+ years of experience in computer graphi
 - Streamlined the push notification system, ensuring timely user updates and messaging across all devices.
 - Oversaw app lifecycle, from feature design to successful Google Play Store release.
 
-**Skills**: Java, Android, Agile Project Management, iOS, Push Notification Systems, Javascript, NodeJS
-
 ### Remote
 #### Platform Engineer, Layout at [Mozilla](https://www.mozilla.org) `Jun 2011 - Oct 2013`
 
-- Developed Gecko platform code for Mozilla products using C/C++, Java, Python, Rust, and more.
-- Boosted web gaming stability and performance using WebGL and DirectX for cross-platform compatibility.
-- Implemented W3C-compliant rendering systems, enhancing cross-platform compatibility.
+- Engineered and maintained low-level, performance-critical systems in the Gecko rendering engine using C++, directly contributing to a platform supporting millions of users.
+- Optimized rendering pipelines for web-based gaming applications, utilizing WebGL and DirectX to enhance performance and ensure cross-platform stability.
+- Architected and implemented core rendering systems compliant with W3C standards, focusing on stability, extensibility, and cross-platform performance.
 - Created layout code for Firefox Android with the Android SDK and NDK, improving performance.
 - Facilitated inter-process communication using JNI and COM, ensuring seamless integration.
-- Implemented portions of CSS3 Multicolumn layout in Firefox, enhancing layout performance and readability.
+- Developed complex layout and rendering features in C++, focusing on performance and adherence to detailed technical specifications.
 - Optimized animated image rendering, improving browser efficiency and user experience.
 - Enhanced text readability in Firefox, contributing to user engagement and satisfaction.
 - Contributed to W3C specs such as CSSOM and WebGL, driving standards in web technologies.
 - Maintained unit tests, ensuring stability and spec compliance within Mozilla's product offerings.
 - Enhanced cross-platform performance by optimizing code efficiency, leading to improved user experience across Mozilla products.
-
-**Skills**: C/C++, Java, Python, Rust, Javascript, HTML, CSS, W3C Specification Writing
 
 ### Bloomington, MN
 #### Sr. Software Engineer at [General Dynamics AIS](https://gdmissionsystems.com/) `Oct 2009 - May 2011`
@@ -113,7 +104,13 @@ Highly skilled software engineer with 15+ years of experience in computer graphi
 - Implemented web services using Hibernate and Spring, enhancing system reliability and performance.
 - Led the enhancement of MAAS software, improving data processing efficiency for intelligence analysts.
 
-**Skills**: Java, Hibernate, Spring, ffmpeg, Web Services, Microsoft SQL Server
+## Other Experience
+#### Ice Hockey Official at USA Hockey & Minnesota State High School League (MSHSL) `April 2013 - Present`
+
+- Demonstrated impartial, real-time decision-making and conflict resolution in high-pressure environments involving coaches, players, and league officials.
+- Applied a deep understanding of complex rule sets to ensure fair play and maintain game integrity, a skill directly applicable to interpreting technical specifications and upholding engineering standards.
+- Managed game flow and communicated critical decisions clearly to a diverse group of stakeholders.
+- Trained new officials through a mentoring program and received mentoring from NHL, NCAA, NFHS, and USAHockey officials.
 
 ## Education
 
@@ -142,17 +139,9 @@ Inducted Lifetime Member, _Phi Beta Kappa_, Honor Society in Liberal Scholorship
 Inducted Lifetime Member, _Upsilon Pi Epsilon_, Computer Science Honor Society, `2004`
 
 ## Skills
-#### Programming Languages
-C/C++, Rust, Javascript (multiple variants, most notably ES6), TypeScript, Java, Groovy, Go, WebAssembly, HaXe, PHP, Ruby,  x86 Assembly
-
-#### Frameworks and Libraries
-OpenGL, OpenGL Shading Language (GLSL), WebGL, Rails, Skia, Qt, Android SDK, Gecko Web Rendering Engine, Gradle, React, Storybook
-
-#### Platforms
-Unix, Linux (multiple variants), Mac OS/X, Windows
-
-#### Cloud Services and Tools
-AWS, GCP, Terraform
-
-#### Developer Tools
-VSCode, Mercurial, Git, CircleCI, Github, Github Actions, [Linear](https://www.linear.app), JIRA, Slack, Discord
+- **Languages**: Ruby, Go, Javascript/TypeScript, Python, Rust, C++, Java
+- **Frameworks & Libraries**: Ruby on Rails, React, Node.js, WebSockets, Electron
+- **Databases**: PostgreSQL, MySQL, Redis, Microsoft SQL Server, Hibernate
+- **Cloud & DevOps**: AWS, GCP, Docker, Terraform, CircleCI, Jenkins, Github Actions
+- **Platforms & Systems**: Linux, Mac OS/X, Windows, Gecko
+- **Graphics**: OpenGL, WebGL, DirectX, Vulkan
