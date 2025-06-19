@@ -3,7 +3,9 @@ on: push
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    name: Build and Deploy Resume
+    name: Build Resume and Release
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - run: sudo apt install -y pandoc lmodern wkhtmltopdf
@@ -13,27 +15,8 @@ jobs:
         with:
           name: output
           path: output/
-      - name: Copy markdown resume to remote host
-        uses: garygrossgarten/github-action-scp@release
+      - name: Create Release with Artifacts
+        uses: ncipollo/release-action@v1
         with:
-          local: output/ScottJohnson.md
-          remote: /var/www/www.jwir3.com/resume/resume.md
-          host: ${{ secrets.UPLOAD_HOST }}
-          username: ${{ secrets.UPLOAD_USERNAME }}
-          privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
-      - name: Copy pdf resume to remote host
-        uses: garygrossgarten/github-action-scp@release
-        with:
-          local: output/ScottJohnson.pdf
-          remote: /var/www/www.jwir3.com/resume/resume.pdf
-          host: ${{ secrets.UPLOAD_HOST }}
-          username: ${{ secrets.UPLOAD_USERNAME }}
-          privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
-      - name: Copy html resume to remote host
-        uses: garygrossgarten/github-action-scp@release
-        with:
-          local: output/ScottJohnson.html
-          remote: /var/www/www.jwir3.com/resume/resume.html
-          host: ${{ secrets.UPLOAD_HOST }}
-          username: ${{ secrets.UPLOAD_USERNAME }}
-          privateKey: ${{ secrets.UPLOAD_PRIVATE_KEY}}
+          artifacts: "output/ScottJohnson.md,output/ScottJohnson.pdf,output/ScottJohnson.html"
+          tag: "latest"

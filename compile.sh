@@ -35,7 +35,7 @@ fi
 source_base=$(basename "$sourcefile" .md)
 
 # shellcheck disable=SC2012
-styles=$(ls -p "styles/${STYLE}/*.css" | sed "s/^/-c /" | tr "\n" " ")
+styles=$(ls -p "styles/${STYLE}/main.css" | sed "s/^/-c /" | tr "\n" " ")
 
 # we actually want the spaces to split out the args
 # shellcheck disable=SC2086

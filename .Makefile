@@ -12,9 +12,9 @@ export DATETIME=$(shell date +"%Y%m%d-%H%M-%S")
 SRCDIR=src
 OBJDIR=output
 SOURCES  := $(wildcard $(SRCDIR)/*.md)
-SORUCES_IN_OUTPUT_DIR := $(patsubst $(SRCDIR)/%,$(OBJDIR)/%,$(SOURCES))
-PDFS := $(SORUCES_IN_OUTPUT_DIR:.md=.pdf)
-HTMLS := $(SORUCES_IN_OUTPUT_DIR:.md=.html)
+SOURCES_IN_OUTPUT_DIR := $(patsubst $(SRCDIR)/%,$(OBJDIR)/%,$(SOURCES))
+PDFS := $(SOURCES_IN_OUTPUT_DIR:.md=.pdf)
+HTMLS := $(SOURCES_IN_OUTPUT_DIR:.md=.html)
 
 all: pdf html
 
