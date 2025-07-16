@@ -22,19 +22,20 @@ Scott Johnson\
 [+1 701 741-9338](tel:+17017419338)
 
 ## Summary
-Strategic engineering leader with over 15 years of experience architecting, delivering, and scaling complex software platforms and leading high-performing, cross-functional engineering teams. Proven track record of driving technical strategy, fostering a culture of innovation and delivery excellence, and collaborating effectively with product, analytics, and executive leadership. Passionate about building scalable, platform-first solutions and mentoring the next generation of engineering talent.
+Highly accomplished Principal Graphics Engineer with over 15 years of experience specializing in designing, building, and optimizing performance-critical, real-time rendering systems for the gaming and high-performance application sectors. Proven expert in leading low-level graphics architecture, driving extreme CPU/GPU optimization for high-fidelity experiences, and mentoring high-performing engineering teams. Passionate about pushing the boundaries of next-generation console gaming technology and contributing to AAA titles.
 
 ## Core Competencies
-- **Strategic & Technical Leadership**: Technical Roadmapping, Cloud Architecture (AWS), Platform Development, Microservices & SOA
-- **Team Leadership & Development**: Hiring & Mentoring, Agile Methodologies, Performance Management, Engineering Culture
-- **Execution & Delivery**: CI/CD & DevOps, Quality & Performance Metrics, API-First Design, Stakeholder Management
-- **Core Technologies**: AWS, Go, JavaScript/TypeScript, NodeJS, React, Docker, Terraform, C/C++, Rust
+- **Graphics Architecture & Performance Systems Design**: Real-Time Rendering Pipelines, Console Optimization, GPU-Driven Rendering, High-Performance Systems, Low-Level Graphics APIs, Scalability & Performance, Data Structures & Algorithms
+- **Languages & Technologies:** C++, Rust, Python, Java, GoLang, TypeScript, JavaScript/Node.js, PHP
+- **DevOps & CI/CD Pipeline Development:** Jenkins, AWS, Docker, Terraform, GitLab CI, CircleCI, GitHub Actions, Heroku
+- **Leadership & Collaboration:** Technical Mentorship, Agile Methodologies, End-to-End Project Ownership, International & Distributed Team Collaboration, Product Roadmap & Planning
+- **Gaming & Low-Level Graphics**: Real-Time Rendering Techniques, Console Graphics Development (DirectX, WebGL, OpenGL, Vulkan), Shader Development (GLSL, [If applicable: HLSL/PSSL]), Hardware-Accelerated Video Capture, GPU Optimization
 
 ## Work Experience
 ### Remote
 
 #### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
-- Architected and developed distributed, fault-tolerant backend services using Go, TypeScript, and Node.js within a large-scale Service-Oriented Architecture (SOA) on AWS.
+- Architected and developed distributed, fault-tolerant backend services within a large-scale Service-Oriented Architecture (SOA), applying principles of scalability and performance critical for real-time systems..
 - Maintained and improved capture infrastructure using Docker, Heroku, and AWS.
 - Applied browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
 - Collaborated on cloud architecture to achieve measurable improvements in deployment speeds.
@@ -42,25 +43,26 @@ Strategic engineering leader with over 15 years of experience architecting, deli
 
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
 
-- Led the full-stack development and architectural design of a SaaS platform for brewery management using Ruby on Rails and React, successfully taking the product from concept to market.
-- Architected a scalable backend using a microservice approach with Rust, Go, and NodeJS, ensuring clear separation of concerns and high availability- - Created resuable React component library using Storybook, improving developer efficiency and software reusability.
+- Led the full-stack development and architectural design of a SaaS platform for brewery management using **Ruby on Rails and React**, successfully taking the product from concept to market.
+- Architected a scalable, high-availability microservice backend leveraging **Rust**, demonstrating versatile backend engineering capabilities and foundational architectural design.
+- Created resuable **React** component library using Storybook, improving developer efficiency and software reusability.
 - Pioneered strategic growth initiatives, enhancing operational efficiency and market reach through innovative tech solutions.
 - Led efforts for the acquisition of venture capital funding to drive growth and plan for future expansion.
 
 #### Principal Engineer at [Medal](https://medal.tv) `Dec 2019 - Jan 2021`
 
-- Enhanced Electron app with audio/video controls for gamers using React and Typescript.
-- Contributed to R&D, build systems, and integrations, improving application performance.
-- Engineered a hardware-accelerated video capture system for gamers, interfacing directly with graphics hardware to ensure high-performance recording with minimal overhead.
-- Led cross-functional teams to enhance software architecture, boosting system efficiency and performance for seamless user experiences.
+- Contributed to core architecture and performance enhancements for a large-scale gaming social platform, ensuring optimal user experience for millions of players.
+- Engineered a secure, high-performance, hardware-accelerated video capture system for a next-generation gaming social platform, demonstrating expertise in low-level system optimization and direct impact on a large user base within the gaming community.
+- Collaborated daily with cross-functional, **globally distributed engineering teams** to enhance software architecture and integrate third-party services, boosting system efficiency and performance.
+- Mentored other engineers on the team, supporting the continuous improvement of the engineering organization.
 
 #### Lead Graphics Engineer at [InVision App](https://www.invisionapp.com) `Dec 2016 - Dec 2019`
 
-- Led the architecture and development of a high-performance, real-time data visualization platform, demonstrating expertise in optimizing complex systems and leading cross-functional teams.
-- Utilized WebGL and haXe (a language similar to Typescript) for efficient GPU-based rendering of complex vector graphics.
-- Designed and implemented a high-performance, GPU-based rendering system for complex Bézier paths, directly programming shaders in GLSL to optimize visual quality and frame rate.
+- Led the architecture and development of a high-performance, real-time rendering platform, demonstrating expertise in low-level GPU optimization and leading cross-functional teams in complex system design.
+- Utilized **WebGL, haXe, and Typescript** for efficient GPU-based rendering of complex vector graphics.
+- Designed and implemented a highly optimized, GPU-based rendering system for complex vector graphics, directly programming shaders in GLSL to achieve peak visual quality and frame rates, addressing demanding performance and memory constraints.
 - Utilized GLSL for shader programming, achieving stunning visual effects in WebGL.
-- Prototyped WebAssembly-based rendering engines, exploring Rust and Skia for future improvements.
+- Prototyped WebAssembly-based rendering engines, exploring **Rust and Skia** for future improvements.
 
 ### Minneapolis, MN
 #### Mobile Engineering Lead at [When I Work](https://www.wheniwork.com) `Sep 2014 - Dec 2016`
@@ -83,34 +85,15 @@ Strategic engineering leader with over 15 years of experience architecting, deli
 ### Remote
 #### Platform Engineer, Layout at [Mozilla](https://www.mozilla.org) `Jun 2011 - Oct 2013`
 
-- Engineered and maintained low-level, performance-critical systems in the Gecko rendering engine using C++, directly contributing to a platform supporting millions of users.
-- Optimized rendering pipelines for web-based gaming applications, utilizing WebGL and DirectX to enhance performance and ensure cross-platform stability.
+- Engineered and maintained performance-critical, low-level rendering systems within the Gecko engine using C++, optimizing core components for a platform supporting hundreds of millions of users, directly addressing CPU/GPU efficiency and adherence to detailed technical specifications.
+- Significantly optimized rendering pipelines for high-performance web-based gaming applications, leveraging WebGL and DirectX (a desired technology for console platforms) to achieve extreme performance gains and cross-platform stability, demonstrating ability to 'wring the last drop of performance out of any CPU or GPU'.
 - Architected and implemented core rendering systems compliant with W3C standards, focusing on stability, extensibility, and cross-platform performance.
 - Created layout code for Firefox Android with the Android SDK and NDK, improving performance.
-- Facilitated inter-process communication using JNI and COM, ensuring seamless integration.
-- Developed complex layout and rendering features in C++, focusing on performance and adherence to detailed technical specifications.
+- Developed complex C++ rendering features, with an acute focus on low-level performance optimization and adherence to stringent technical specifications, contributing to a robust graphics architecture.
 - Optimized animated image rendering, improving browser efficiency and user experience.
 - Enhanced text readability in Firefox, contributing to user engagement and satisfaction.
 - Contributed to W3C specs such as CSSOM and WebGL, driving standards in web technologies.
-- Maintained unit tests, ensuring stability and spec compliance within Mozilla's product offerings.
 - Enhanced cross-platform performance by optimizing code efficiency, leading to improved user experience across Mozilla products.
-
-### Bloomington, MN
-#### Sr. Software Engineer at [General Dynamics AIS](https://gdmissionsystems.com/) `Oct 2009 - May 2011`
-
-- Enhanced _Multi-Int Analysis and Archive System (MAAS)_ features for intelligence community data analysis, boosting analyst efficiency.
-- Developed Java code interfacing with Microsoft SQL Server, improving data processing speed.
-- Collaborated on the MAAS software suite, including video editing with ffmpeg, to improve user satisfaction.
-- Implemented web services using Hibernate and Spring, enhancing system reliability and performance.
-- Led the enhancement of MAAS software, improving data processing efficiency for intelligence analysts.
-
-## Other Experience
-#### Ice Hockey Official at USA Hockey & Minnesota State High School League (MSHSL) `April 2013 - Present`
-
-- Demonstrated impartial, real-time decision-making and conflict resolution in high-pressure environments involving coaches, players, and league officials.
-- Applied a deep understanding of complex rule sets to ensure fair play and maintain game integrity, a skill directly applicable to interpreting technical specifications and upholding engineering standards.
-- Managed game flow and communicated critical decisions clearly to a diverse group of stakeholders.
-- Trained new officials through a mentoring program and received mentoring from NHL, NCAA, NFHS, and USAHockey officials.
 
 ## Education
 
@@ -139,9 +122,9 @@ Inducted Lifetime Member, _Phi Beta Kappa_, Honor Society in Liberal Scholorship
 Inducted Lifetime Member, _Upsilon Pi Epsilon_, Computer Science Honor Society, `2004`
 
 ## Skills
-- **Languages**: Ruby, Go, Javascript/TypeScript, Python, Rust, C++, Java
+- **Languages**: C++, Rust, Java, Python, Ruby, Go, Javascript/TypeScript
 - **Frameworks & Libraries**: Ruby on Rails, React, Node.js, WebSockets, Electron
 - **Databases**: PostgreSQL, MySQL, Redis, Microsoft SQL Server, Hibernate
 - **Cloud & DevOps**: AWS, GCP, Docker, Terraform, CircleCI, Jenkins, Github Actions
 - **Platforms & Systems**: Linux, Mac OS/X, Windows, Gecko
-- **Graphics**: OpenGL, WebGL, DirectX, Vulkan
+- **Graphics**: OpenGL, WebGL, DirectX, Vulkan, Shader Languages (GLSL, Familiar with HLSL/PSSL)
