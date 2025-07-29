@@ -14,22 +14,22 @@ style: default
 
 ## Contact Information
 
-Scott Johnson\
-<jaywir3@gmail.com>\
-<https://www.jwir3.com>\
-<https://www.github.com/jwir3>\
-<https://www.linkedin.com/in/jwir3>\
+Scott Johnson
+<jaywir3@gmail.com>
+<https://www.jwir3.com>
+<https://www.github.com/jwir3>
+<https://www.linkedin.com/in/jwir3>
 [+1 701 741-9338](tel:+17017419338)
 
 ## Summary
-Highly accomplished Principal Graphics Engineer with over 15 years of experience specializing in designing, building, and optimizing performance-critical, real-time rendering systems. Proven expert in leading low-level graphics architecture, driving extreme CPU/GPU optimization for high-fidelity experiences, and developing advanced 3D graphics and modeling algorithms. Passionate about pushing the boundaries of graphics engine technology and contributing to innovative design tools.
+Highly accomplished Principal Graphics Engineer with over 15 years of experience specializing in designing, building, and optimizing performance-critical, real-time rendering systems for high-fidelity interactive experiences. Proven expert in low-level graphics architecture, driving extreme CPU/GPU optimization, and developing advanced 3D graphics and modeling algorithms. Passionate about crafting ground-breaking AAA quality animations that deliver impactful narrative and foster emotional connections, with a strong focus on C++ engineering, 3D math, and collaborative problem-solving.
 
 ## Core Competencies
-- **Graphics Engine & CAD Systems Design**: Real-Time Rendering Pipelines, GPU-Driven Rendering, Low-Level Graphics APIs (Vulkan, OpenGL, WebGL, DirectX), 3D Modeling Algorithms (Bézier Curves/NURBS familiarity), Data Structures & Algorithms, Performance Optimization, Scalability
-- **Languages & Technologies:** C++14/17, Rust, Python, Java, GoLang, TypeScript, JavaScript/Node.js
-- **GPU Computing & Shaders:** GLSL, Familiarity with HLSL/PSSL, CUDA
-- **DevOps & CI/CD Pipeline Development:** RabbitMQ, Jenkins, AWS, Docker, Terraform, GitLab CI, CircleCI, GitHub Actions
-- **Leadership & Collaboration:** Technical Mentorship, Agile Methodologies, End-to-End Project Ownership, International & Distributed Team Collaboration
+- **Animation & Narrative Realization**: Architecting and implementing AAA quality gameplay and AI animations, Seamless narrative integration into gameplay, Enhancing emotional impact through animation, Cinematic & Narrative Presentation tools & workflows, Maximizing character asset potential
+- **Engine Development**: Real-Time Rendering Pipelines, GPU-Driven Rendering, Low-Level Graphics APIs (Vulkan, OpenGL, WebGL, DirectX), 3D Math & Graphics Algorithms (Bézier Curves/NURBS familiarity), Shepherding animation from DCC to final pixels
+- **Languages & Core Skills:** C++14/17 (production quality), Rust, Python, GoLang, TypeScript, JavaScript/Node.js, GLSL (Familiarity with HLSL/PSSL), Strong Math Skills
+- **System Design & Optimization**: Data Structures & Algorithms, Performance Optimization, Scalability, Owning features and systems, Analyzing technical tradeoffs
+- **Leadership & Collaboration:** Technical Mentorship, Agile Methodologies, End-to-End Project Ownership, International & Distributed Team Collaboration, Breaking down features & building plans, Communicating technical details to diverse audiences, Leading by example, collaboration, and mentorship.
 
 ## Work Experience
 ### Remote
@@ -77,7 +77,7 @@ Highly accomplished Principal Graphics Engineer with over 15 years of experience
 
 ### University of Minnesota
 #### Master of Science, Computer Science `2006-2009`
-From 2006-2009, was in a PhD program in Computer Science with research focuses in computational geometry and photorealistic rendering in computer graphics.
+From 2006-2009, was in a PhD program in Computer Science with research focuses in computational geometry and photorealistic rendering in computer graphics. Earned a Master of Science degree in 2009, graduated summa cum laude.
 
 ### University of North Dakota
 #### Bachelor of Science in Computer Science `2001-2006`
@@ -101,8 +101,10 @@ Inducted Lifetime Member, _Upsilon Pi Epsilon_, Computer Science Honor Society, 
 
 ## Skills
 - **Languages**: C++14/17, Rust, Java, Python, Ruby, Go, Javascript/TypeScript
+- **Graphics APIs**: OpenGL, WebGL, DirectX, Vulkan, CUDA, Shader Languages (GLSL, Familiar with HLSL/PSSL)
+- **Game Engine Concepts**: Experience transferable to Unreal Engine concepts (e.g., state machines, blend spaces, animation graphs due to extensive graphics engine work)
+- **Math**: Strong 3D Math Skills, Computational Geometry
 - **Frameworks & Libraries**: Ruby on Rails, React, Node.js, WebSockets, Electron
 - **Databases**: PostgreSQL, MySQL, Redis, Microsoft SQL Server, Hibernate
 - **Cloud & DevOps**: RabbitMQ, AWS, Docker, Terraform, CircleCI, Jenkins, Github Actions
 - **Platforms & Systems**: Linux, Mac OS/X, Windows
-- **Graphics**: OpenGL, WebGL, DirectX, Vulkan, CUDA, Shader Languages (GLSL, Familiar with HLSL/PSSL)
