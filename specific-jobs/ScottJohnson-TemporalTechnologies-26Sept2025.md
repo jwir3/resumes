@@ -22,26 +22,28 @@ https://www.linkedin.com/in/jwir3 <br />
 [+1 701 741-9338](tel:+17017419338) <br />
 
 ## Summary
-Highly accomplished Principal Graphics Engineer with over 15 years of experience specializing in designing, building, and optimizing performance-critical, real-time rendering systems for high-fidelity interactive experiences. Proven expert in low-level graphics architecture, driving extreme CPU/GPU optimization, and developing advanced 3D graphics and modeling algorithms. Passionate about crafting ground-breaking AAA quality animations that deliver impactful narrative and foster emotional connections, with a strong focus on C++ engineering, 3D math, and collaborative problem-solving.
+Highly accomplished Principal Engineer with 15+ years of experience specializing in designing, building, and optimizing performance-critical, real-time systems and low-level platform architecture. Proven expert in deep concurrency, distributed systems, and language runtime integration (C++, Rust, Go, Python, TypeScript) to achieve extreme CPU/GPU optimization and reliable execution. Strong background in designing public-facing APIs/SDKs and driving core technical architectural strategy, aligning perfectly with the requirements for the Temporal SDK team.
 
-## Core Competencies
-- **Animation & Narrative Realization**: Architecting and implementing AAA quality gameplay and AI animations, Seamless narrative integration into gameplay, Enhancing emotional impact through animation, Cinematic & Narrative Presentation tools & workflows, Maximizing character asset potential
-- **Engine Development**: Real-Time Rendering Pipelines, GPU-Driven Rendering, Low-Level Graphics APIs (Vulkan, OpenGL, WebGL, DirectX), 3D Math & Graphics Algorithms (Bézier Curves/NURBS familiarity), Shepherding animation from DCC to final pixels
-- **Languages & Core Skills:** C++14/17 (production quality), Rust, Python, GoLang, TypeScript, JavaScript/Node.js, GLSL (Familiarity with HLSL/PSSL), Strong Math Skills
-- **System Design & Optimization**: Data Structures & Algorithms, Performance Optimization, Scalability, Owning features and systems, Analyzing technical tradeoffs
-- **Leadership & Collaboration:** Technical Mentorship, Agile Methodologies, End-to-End Project Ownership, International & Distributed Team Collaboration, Breaking down features & building plans, Communicating technical details to diverse audiences, Leading by example, collaboration, and mentorship.
+## Technical Proficiencies
+- **Languages & Runtimes**: C++14/17 (production quality), Rust, GoLang, Python, Java, Ruby, TypeScript, JavaScript/Node.js. Deep knowledge of performance-critical language runtime behavior.
+- **Concurrency & Distributed Systems**: Deep experience with concurrent programming (mutexes, atomics, thread safety), Distributed Architectures (SOA, Microservices), Scalability, Fault Tolerance, Asynchronous Message Queuing (RabbitMQ), and highly-available backend design.
+- **API & System Design**: Experience contributing to W3C specifications (CSSOM, WebGL), designing APIs and documentation for large-scale, public-facing libraries, and providing technical mentorship.
+- **Engine & Low-Level Optimization**: Real-Time Rendering Pipelines, GPU-Driven Rendering, Low-Level Graphics APIs (Vulkan, OpenGL, WebGL, DirectX), Advanced 3D Math, Performance Optimization (CPU/GPU), Data Structures & Algorithms.
+- **Open Source Projects**: Mozilla Firefox, Blender, Crystal Space 3D SDK, Taiga, Storybook, Numerous Personal Projects
 
 ## Work Experience
 ### Remote
 
 #### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
 - Architected and developed distributed, fault-tolerant backend services within a large-scale Service-Oriented Architecture (SOA), applying principles of scalability and performance critical for real-time systems.
-- Maintained and improved capture infrastructure using Docker, Heroku, and AWS, with RabbitMQ for queuing/message-passing.
+- Maintained and improved capture infrastructure using **Docker**, **AWS**, **Heroku**, with RabbitMQ for queuing/message-passing.
 - Applied browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
+- Researched and implemented brand new, never-before used algorithms for page shift detection and image similarity detection, improving customer experience by leveraging human perception.
 
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
 - Led the full-stack development and architectural design of a SaaS platform, demonstrating versatile backend engineering capabilities and foundational architectural design.
 - Architected a scalable, high-availability microservice backend leveraging **Rust**.
+- Grew the organization from 0 to implement an efficient, fully-featured brewery management system for use in small production facilities.
 
 #### Principal Engineer at [Medal](https://medal.tv) `Dec 2019 - Jan 2021`
 - Contributed to core architecture and performance enhancements for a large-scale gaming social platform, ensuring optimal user experience for millions of players.
@@ -87,12 +89,11 @@ Completed a Bachelor's degree in Computer Science with focused study in software
 Completed a separate Bachelor's degree in Mathematics with focused study in statistical theory, number theory, and combinatorics. Graduated summa cum laude.
 
 ## Awards and Recognitions
-- Top Secret Clearance (Currently Inactive); _United States Department of Defense_, `2009-2011`
-- Google Summer of Code Mentor; _Crystal Space 3D SDK_, `Summer 2008`, `Summer 2009`
-- Google Summer of Code Grant Recipient; _Crystal Space 3D SDK_, `Summer 2007`
-- Inducted Lifetime Member, _Phi Beta Kappa_, Honor Society in Liberal Scholorship,
+- **Google Summer of Code**: Grant Recipient (Summer 2007) and Mentor (Summer 2008, Summer 2009) for the Crystal Space 3D SDK, demonstrating early and sustained commitment to the open-source community.
+- **Google Summer of Code** Mentor; _Crystal Space 3D SDK_, `Summer 2008`, `Summer 2009`
+- **Inducted Lifetime Member**, _Phi Beta Kappa_, Honor Society in Liberal Scholorship,
  `2006`
-- Inducted Lifetime Member, _Upsilon Pi Epsilon_, Computer Science Honor Society, `2004`
+- **Inducted Lifetime Member**, _Upsilon Pi Epsilon_, Computer Science Honor Society, `2004`
 
 ## Skills
 - **Languages**: C++14/17, Rust, Java, Python, Ruby, Go, Javascript/TypeScript
