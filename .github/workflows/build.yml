@@ -3,20 +3,51 @@ on: push
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    name: Build Resume and Release
+    name: Build Resume and Deploy to Repository
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      - run: sudo apt install -y pandoc lmodern wkhtmltopdf
-      - run: make test
-      - run: make
-      - uses: actions/upload-artifact@v4
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt install -y pandoc lmodern wkhtmltopdf
+
+      - name: Run tests
+        run: make test
+
+      - name: Build resume
+        run: make
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
         with:
           name: output
           path: output/
-      - name: Create Release with Artifacts
-        uses: ncipollo/release-action@v1
+
+      - name: Checkout target repository
+        uses: actions/checkout@v3
         with:
-          artifacts: "output/ScottJohnson.md,output/ScottJohnson.pdf,output/ScottJohnson.html"
-          tag: "latest"
+          repository: ${{ secrets.RESUME_TARGET_REPO }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: target-repo
+
+      - name: Copy files to target repository
+        run: |
+          # Copy the generated resume files to the target repository
+          cp output/ScottJohnson.pdf target-repo/resume
+          cp output/ScottJohnson.html target-repo/resume
+          cp output/ScottJohnson.md target-repo/resume
+
+      - name: Commit and push changes
+        run: |
+          cd target-repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update resume files - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
