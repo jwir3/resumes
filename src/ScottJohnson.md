@@ -1,12 +1,10 @@
 ---
 title: Scott Johnson
-
 margin-left: 1.5cm
 margin-right: 1.8cm
 margin-top: 2cm
 margin-bottom: 1.5cm
 papersize: a4
-
 style: default
 ---
 
@@ -22,84 +20,93 @@ https://www.linkedin.com/in/jwir3 <br />
 [+1 701 741-9338](tel:+17017419338) <br />
 
 ## Summary
-Highly accomplished Principal Graphics Engineer with over 15 years of experience specializing in designing, building, and optimizing performance-critical, real-time rendering systems for high-fidelity interactive experiences. Proven expert in low-level graphics architecture, driving extreme CPU/GPU optimization, and developing advanced 3D graphics and modeling algorithms. Passionate about crafting ground-breaking AAA quality animations that deliver impactful narrative and foster emotional connections, with a strong focus on C++ engineering, 3D math, and collaborative problem-solving.
+
+Principal-level Systems Engineer with over 15 years of experience specializing in **C++ engine architecture**, **rendering pipelines**, and **system performance optimization**. Deep expertise in low-level internals (Mozilla Gecko), with a proven history of engineering core graphic systems that underpin modern applications. Passionate about **mentoring** engineering teams, driving code quality standards, and solving complex **multi-threading** and memory management challenges. Currently finishing a PhD in Computer Graphics.
 
 ## Core Competencies
-- **Animation & Narrative Realization**: Architecting and implementing AAA quality gameplay and AI animations, Seamless narrative integration into gameplay, Enhancing emotional impact through animation, Cinematic & Narrative Presentation tools & workflows, Maximizing character asset potential
-- **Engine Development**: Real-Time Rendering Pipelines, GPU-Driven Rendering, Low-Level Graphics APIs (Vulkan, OpenGL, WebGL, DirectX), 3D Math & Graphics Algorithms (Bézier Curves/NURBS familiarity), Shepherding animation from DCC to final pixels
-- **Languages & Core Skills:** C++14/17 (production quality), Rust, Python, GoLang, TypeScript, JavaScript/Node.js, GLSL (Familiarity with HLSL/PSSL), Strong Math Skills
-- **System Design & Optimization**: Data Structures & Algorithms, Performance Optimization, Scalability, Owning features and systems, Analyzing technical tradeoffs
-- **Leadership & Collaboration:** Technical Mentorship, Agile Methodologies, End-to-End Project Ownership, International & Distributed Team Collaboration, Breaking down features & building plans, Communicating technical details to diverse audiences, Leading by example, collaboration, and mentorship.
+
+- **Engine Architecture & Internals**: Deep knowledge of massive C++ codebases (Mozilla Gecko), Layout & Rendering pipelines, and System Architecture.
+- **System Performance & Optimization**: CPU/GPU profiling, Memory management, Thread safety strategies, and V8/SpiderMonkey engine optimization.
+- **Graphics Programming**: OpenGL, DirectX, Vulkan, and custom shader development (GLSL/HLSL).
+- **Leadership & Mentoring**: Leading technical initiatives, mentoring senior engineers, and bridging communication between artists, designers, and engineers.
 
 ## Work Experience
+
 ### Remote
 
 #### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
-- Architected and developed distributed, fault-tolerant backend services within a large-scale Service-Oriented Architecture (SOA), applying principles of scalability and performance critical for real-time systems.
-- Maintained and improved capture infrastructure using Docker, Heroku, and AWS, with RabbitMQ for queuing/message-passing.
-- Applied browser and rendering expertise to improve image differencing algorithms, increasing accuracy and reliability.
+
+- Architected fault-tolerant distributed systems for visual testing, ensuring high availability and scalability.
+- Optimized image processing algorithms using low-level rendering expertise, directly improving performance for developer tools.
+- Led cross-team initiatives to improve infrastructure maintainability and build pipelines.
+- Performed research into new image comparison algorithms, resulting in implementation of several features unique to Chromatic.
 
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
-- Led the full-stack development and architectural design of a SaaS platform, demonstrating versatile backend engineering capabilities and foundational architectural design.
-- Architected a scalable, high-availability microservice backend leveraging **Rust**.
+
+- Led full-stack architecture of a SaaS platform, balancing technical trade-offs between rapid iteration and system stability.
+- Architected a high-performance backend leveraging **Rust**, prioritizing type safety and memory security.
 
 #### Principal Engineer at [Medal](https://medal.tv) `Dec 2019 - Jan 2021`
-- Contributed to core architecture and performance enhancements for a large-scale gaming social platform, ensuring optimal user experience for millions of players.
-- Engineered a secure, high-performance, hardware-accelerated video capture system, demonstrating expertise in low-level system optimization and direct impact on a large user base within the gaming community.
-- Collaborated daily with cross-functional, **globally distributed engineering teams** to enhance software architecture and integrate third-party services, boosting system efficiency and performance.
-- Mentored other engineers on the team, supporting the continuous improvement of the engineering organization.
+
+- **Game Tech Architecture:** Engineered core recording technology for a high-traffic desktop gaming application, working with native node modules and OS-level integrations.
+- **Performance Optimization:** Developed a secure, hardware-accelerated video capture system, optimizing low-level resource usage (CPU/GPU) to ensure minimal impact on gameplay frame rates.
+- **Cross-Functional Leadership:** Collaborated with engineering and design teams to align on technical strategy and mentored team members on debugging complex threading and performance issues.
 
 #### Lead Graphics Engineer at [InVision App](https://www.invisionapp.com) `Dec 2016 - Dec 2019`
-- Led the architecture and development of a high-performance, real-time rendering platform, demonstrating expertise in low-level GPU optimization and leading cross-functional teams in complex system design.
-- Utilized **WebGL, haXe, and Typescript** for efficient GPU-based rendering of complex vector graphics.
-- Designed and implemented a highly optimized, GPU-based rendering system for complex vector graphics, directly programming shaders in **GLSL** to achieve peak visual quality and frame rates, addressing demanding performance and memory constraints.
-- Prototyped WebAssembly-based rendering engines, exploring **Rust and Skia** for future improvements.
+
+- **Rendering Engine:** Designed and implemented a GPU-based vector rendering engine using **WebGL**, **Rust**, **WebAssembly**, **haXe**, and **TypeScript**, solving complex performance challenges to deliver 60fps interactivity.
+- **Developer Experience:** Prototyped next-generation rendering solutions using WebAssembly and Rust to increase developer efficiency.
 
 ### Minneapolis, MN
+
 #### Mobile Engineering Lead at [When I Work](https://www.wheniwork.com) `Sep 2014 - Dec 2016`
-- Led team to innovate Android app solutions, enhancing user engagement and satisfaction.
-- Led a team of 3 developers in an Agile environment, improving project delivery times and application quality through rigorous code reviews, CI/CD, and mentorship.
+
+- Led a team of developers in an Agile environment, instituting rigorous code reviews and CI/CD practices.
+- Collaborated with product and design stakeholders to deliver robust application features.
 
 ### Edina, MN
+
 #### Android Engineering Lead at Jingit `Nov 2013 - Sep 2014`
-- Led cross-functional teams in developing an Android app for retail rewards, enhancing app features, as well as driving substantial engagement and user satisfaction.
-- Boosted team productivity by 10% weekly through agile processes and coding standards.
+
+- Led several cross-functional teams in developing mobile solutions, focusing on user engagement and application performance.
+- Mentored junior engineers and contractors to form a cohesive team focused on building and scaling a retail interaction application on several mobile platforms.
 
 ### Remote
+
 #### Platform Engineer, Layout at [Mozilla](https://www.mozilla.org) `Jun 2011 - Oct 2013`
-- Engineered and maintained performance-critical, low-level rendering systems within the Gecko engine using **C++**, optimizing core components for a platform supporting hundreds of millions of users, directly addressing CPU/GPU efficiency and adherence to detailed technical specifications.
-- Significantly optimized rendering pipelines for high-performance web-based gaming applications, leveraging **WebGL and DirectX** to achieve extreme performance gains and cross-platform stability, demonstrating ability to 'wring the last drop of performance out of any CPU or GPU'.
-- Architected and implemented core rendering systems compliant with W3C standards, focusing on stability, extensibility, and cross-platform performance.
-- Developed complex **C++** rendering features, with an acute focus on low-level performance optimization and adherence to stringent technical specifications, contributing to a robust graphics architecture.
-- Contributed to W3C specs such as CSSOM and **WebGL**, driving standards in web technologies.
+
+- **C++ Engine Internals:** Engineered performance-critical, low-level rendering and layout systems within the **Gecko engine** using **C++**.
+- **Standards & Stability:** Architected core rendering systems compliant with W3C standards (CSSOM, WebGL), ensuring cross-platform stability.
+- **Performance Profiling:** Optimized rendering pipelines for high-performance web applications, leveraging deep knowledge of **DirectX** and **OpenGL** to maximize hardware utilization.
+- Contributed to large-scale open-source projects, collaborating with the global community to drive web technology evolution.
 
 ## Education
 
 ### University of Minnesota
+
 #### Master of Science, Computer Science `2006-2009`
-From 2006-2009, was in a PhD program in Computer Science with research focuses in computational geometry and photorealistic rendering in computer graphics. Earned a Master of Science degree in 2009, graduated summa cum laude.
+
+Graduate research focused on computational geometry, photorealistic rendering, and algorithm optimization. Graduated summa cum laude.
 
 ### University of North Dakota
-#### Bachelor of Science in Computer Science `2001-2006`
-Completed a Bachelor's degree in Computer Science with focused study in software engineering and computer graphics. Graduated summa cum laude.
 
-#### Bachelor of Science `2001-2006`
-Completed a separate Bachelor's degree in Mathematics with focused study in statistical theory, number theory, and combinatorics. Graduated summa cum laude.
+#### Bachelor of Science in Computer Science `2001-2006`
+
+Focused study in software engineering and computer graphics. Graduated summa cum laude.
+
+#### Bachelor of Science (Mathematics) `2001-2006`
+
+Focused study in statistical theory, number theory, and combinatorics. Graduated summa cum laude.
 
 ## Awards and Recognitions
-- Top Secret Clearance (Currently Inactive); _United States Department of Defense_, `2009-2011`
-- Google Summer of Code Mentor; _Crystal Space 3D SDK_, `Summer 2008`, `Summer 2009`
-- Google Summer of Code Grant Recipient; _Crystal Space 3D SDK_, `Summer 2007`
-- Inducted Lifetime Member, _Phi Beta Kappa_, Honor Society in Liberal Scholorship,
- `2006`
-- Inducted Lifetime Member, _Upsilon Pi Epsilon_, Computer Science Honor Society, `2004`
+
+- **Open Source Contribution**: Google Summer of Code Mentor & Grant Recipient (Crystal Space 3D SDK), `2007-2009`.
+- Top Secret Clearance (Currently Inactive); _United States Department of Defense_, `2009-2011`.
+- Inducted Lifetime Member, _Phi Beta Kappa_ & _Upsilon Pi Epsilon_.
 
 ## Skills
-- **Languages**: C++14/17, Rust, Java, Python, Ruby, Go, Javascript/TypeScript
-- **Graphics APIs**: OpenGL, WebGL, DirectX, Vulkan, CUDA, Shader Languages (GLSL, Familiar with HLSL/PSSL)
-- **Game Engine Concepts**: Experience transferable to Unreal Engine concepts (e.g., state machines, blend spaces, animation graphs due to extensive graphics engine work)
-- **Math**: Strong 3D Math Skills, Computational Geometry
-- **Frameworks & Libraries**: Ruby on Rails, React, Node.js, WebSockets, Electron
-- **Databases**: PostgreSQL, MySQL, Redis, Microsoft SQL Server, Hibernate
-- **Cloud & DevOps**: RabbitMQ, AWS, Docker, Terraform, CircleCI, Jenkins, Github Actions
-- **Platforms & Systems**: Linux, Mac OS/X, Windows
+
+- **Languages**: C++14/17 (High Proficiency), Rust, GLSL/HLSL, TypeScript/JavaScript, Go, Python.
+- **Graphics & Systems**: Unreal Engine 5, WebGL, OpenGL, Vulkan, DirectX, Multi-threaded Programming, Engine Architecture.
+- **Desktop & Web**: Electron, Native Node Modules, Browser Layout/Rendering Engines.
+- **DevOps & Tools**: Git/GitHub, CI/CD, AWS, Docker, Linux/MacOS/Windows Development.
