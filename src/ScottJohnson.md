@@ -34,12 +34,17 @@ Principal-level Systems Engineer with over 15 years of experience specializing i
 
 ### Remote
 
-#### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - Present`
-
+#### Capture Software Engineer at [Chromatic](https://www.chromatic.com) `Mar 2023 - November 2026`
 - Architected fault-tolerant distributed systems for visual testing, ensuring high availability and scalability.
 - Optimized image processing algorithms using low-level rendering expertise, directly improving performance for developer tools.
 - Led cross-team initiatives to improve infrastructure maintainability and build pipelines.
 - Performed research into new image comparison algorithms, resulting in implementation of several features unique to Chromatic.
+- Designed and built page shift detection, as a new algorithm, for visual regression diffs. When content is added or removed and the rest of the page moves down, the software recognizes that instead of flagging every pixel below it as changed. 
+- Made snapshot capture across Chrome and Firefox much more reliable. Added smart retry filtering that skips DNS failures, non-HTTP protocols, aborted requests and known-bad hosts. Made rendering much more consistent for: animations, subpixel font antialiasing, emoji fonts, spellcheck underlines, lazy-loaded video and display: contents. Together, these cut down on false-positive diffs and wasted retries.
+- Improved the core capture features customers use most. Made "ignored regions" work inside iframes and nested documents and with out-of-flow elements. Added configurable DPI (default raised to 2.0x) and a new autoMockDate story parameter that runs from the CLI through a dispatch mechanism to the capture workers.
+- Led a large modernization of the capture codebase, including moving the in-browser Playwright helpers from legacy JavaScript to TypeScript modules, switching the build to ES modules, adding browser-mode test fixtures and coverage tooling, and retiring old libraries such as pngjs and bottleneck.
+- Handled capture infrastructure, scaling and observability. Connected the capture workers to a new autoscaler, adding authenticated register/deregister calls. Helped launch new capture stack versions (v6, v7, then v8) across the services, added Sentry error tracking to dispatch service, and upgraded Sentry across three major versions (7 → 8 → 9).
+- Shipped features in the open-source Chromatic CLI, including JSON5 config file support, multi-line `--skip` patterns, more detailed XML reports, a configurable git timeout, pnpm lockfile detection and a chromaticSha input for the GitHub Action. Earlier, on the build CDN, you added a separate target-host cookie on top of the JWT access-cache token, a clearer "access denied" page and Segment analytics for Storybook views.
 
 #### Founder/CEO at [FoamFactory](https://www.foamfactory.io) `Jan 2021 - Mar 2023`
 
